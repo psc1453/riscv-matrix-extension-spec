@@ -2,9 +2,9 @@
 
 #######set parameter
 
-compiler_file="./toolchain/Xuantie-gcc-linux-glibc-x86_64-matrix.tar.gz"
-compiler_md5="15e6fe82825664494310a1a671b73d6a"
-compiler_address="https://github.com/XUANTIE-RV/riscv-matrix-extension-spec/releases/download/v0.3.0/Xuantie-gcc-linux-glibc-x86_64-matrix.tar.gz"
+compiler_file="./toolchain/Xuantie-900-gcc-linux-6.6.0-glibc-x86_64-V2.10.1-20240712.tar.gz"
+compiler_md5="5a8f94bd2bc93814ce99b414df9fcee9"
+compiler_address="https://github.com/psc1453/riscv-matrix-extension-spec/releases/download/v0.4.0/Xuantie-900-gcc-linux-6.6.0-glibc-x86_64-V2.10.1-20240712.tar.gz"
 
 ######make qemu
 echo "--- Make qemu ---"
@@ -36,7 +36,7 @@ fi
 
 echo "--- Make compiler ---"
 mkdir gcc
-tar -zxvf ./toolchain/Xuantie-gcc-linux-glibc-x86_64-matrix.tar.gz -C gcc
+tar -zxvf ./toolchain/Xuantie-900-gcc-linux-6.6.0-glibc-x86_64-V2.10.1-20240712.tar.gz -C gcc
 
 make
 echo "--- The environment is ready ---"
