@@ -4,7 +4,7 @@
 
 compiler_file="./toolchain/Xuantie-900-gcc-linux-6.6.0-glibc-x86_64-V2.10.1-20240712.tar.gz"
 compiler_md5="5a8f94bd2bc93814ce99b414df9fcee9"
-compiler_address="https://github.com/psc1453/riscv-matrix-extension-spec/releases/download/v0.4.0/Xuantie-900-gcc-linux-6.6.0-glibc-x86_64-V2.10.1-20240712.tar.gz"
+compiler_address="https://mirror.ghproxy.com/https://github.com/psc1453/riscv-matrix-extension-spec/releases/download/v0.4.0/Xuantie-900-gcc-linux-6.6.0-glibc-x86_64-V2.10.1-20240712.tar.gz"
 
 ######make qemu
 echo "--- Make qemu ---"
